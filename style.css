@@ -1,0 +1,136 @@
+body {
+    font-size: 15pt;
+    background: black;
+}
+h1.Happy { 
+  text-align:center;
+  color: green;
+  
+ 
+}
+h4.aaa{
+  color:lightgreen;
+  font-size:50px;
+  margin-top: 0px;
+  margin-bottom:0px;
+}
+p.bb{
+  color:violet;
+  margin-top: 0px;
+  margin-bottom:0px;
+  font-size: 50px;
+}
+p.cc{
+  color: lightyellow;
+  margin-top: 0px;
+  margin-bottom:0px;
+  font-size: 50px;
+}
+p.dd{
+  color: #02EFD8;
+  margin-top: 0px;
+  margin-bottom:0px;
+  font-size: 50px;
+}
+p.ee{
+  color:#8802EF ;
+  margin-top: 0px;
+  margin-bottom:0px;
+  font-size: 50px;
+}
+h2 {
+  text-align: center;
+  color: red;
+}
+h1.hello{
+  color: red;
+  animation-duration: 12s;
+animation-name: change;
+margin-top: 0px;
+margin-bottom:0px;
+
+
+
+}
+
+h4.aa{
+  animation-name:aa;
+  animation-duration:5s;
+  animation-iteration-count: 500;
+  
+}
+
+h1.bye{
+  color: deeppink;
+  font-size: 150px;
+  animation: change2 12s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+@keyframes change{
+0%{
+    color: darkorange;
+    font-size: 150px;
+  
+ }
+ 50%{
+   font-size: 75px;
+   color: purple;
+ }
+
+
+ 100%{
+   font-size: 0px;
+   color: black;
+ }
+  
+}
+
+@keyframes change2{
+  0%{
+    color: deeppink;
+    font-size: 0px;
+  }
+  25%{
+    color: deepskyblue;
+    font-size: 40px;
+  }
+  50%{
+    color: deepskyblue;
+    font-size: 80px;
+  }
+  75%{color:yellow ;
+    font-size: 120px;
+  }
+  100%{
+    font-size: 150px;
+    color: yellow;
+  }
+}
+
+@keyframes aa{
+  0%{
+    color: purple;
+    font-size: 20px;
+  }
+  30%{
+    color: darkred;
+    font-size: 50px;
+  }
+  50%{
+    color: darkgreen;
+   font-size: 80px;
+  }
+  70%{
+    color: deeppink;
+    font-size: 120px;
+  }
+  90%{
+    color: yellow;
+    font-size: 140px;
+  }
+  100%{
+    color: darkviolet;
+    font-size: 150px;
+  }
+}
